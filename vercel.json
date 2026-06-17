@@ -1,0 +1,15 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "installCommand": "pip install -r requirements.txt",
+  "framework": "streamlit",
+  "env": {
+    "STREAMLIT_SERVER_PORT": "3000",
+    "STREAMLIT_SERVER_ADDRESS": "0.0.0.0",
+    "STREAMLIT_SERVER_HEADLESS": "true"
+  },
+  "functions": {
+    "api/handler.py": {
+      "runtime": "python3.9"
+    }
+  }
+}

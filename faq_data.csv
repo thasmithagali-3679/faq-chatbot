@@ -1,0 +1,11 @@
+Question,Answer,Category
+What is the FAQ Chatbot?,An intelligent chatbot powered by Gemini AI that answers frequently asked questions using a database of FAQs and AI-generated responses.,General
+How do I ask a question?,Simply type your question in the text area and click the Send Message button. The chatbot will search the FAQ database and generate a response.,How to Use
+What languages are supported?,The chatbot supports 10 languages including English, Spanish, French, German, Hindi, Chinese, Japanese, Portuguese, Russian, and Arabic.,Features
+Can I add my own FAQs?,Yes! Go to the FAQ Database section and use the Add New FAQ tab to add your own questions and answers.,Features
+How does the translation work?,The chatbot uses Google Translate API to translate responses to your selected language.,Features
+What is Gemini AI?,Gemini AI is Google's state-of-the-art language model that powers the chatbot's response generation.,Technical
+How are responses generated?,Responses are generated using Gemini AI combined with relevant FAQ information from the database.,Technical
+Is my data private?,Your conversation data is processed securely. Please refer to privacy policies for detailed information.,Privacy
+Can I export chat history?,Currently the chat history is stored in session memory. You can take screenshots or copy conversations.,Features
+What if I encounter an error?,If you encounter an error please check that API keys are properly configured and try again.,Support

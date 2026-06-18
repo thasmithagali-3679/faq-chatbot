@@ -12,10 +12,10 @@ st.set_page_config(page_title="FAQ Chatbot", page_icon="🤖", layout="centered"
 st.title("🤖 FAQ Chatbot")
 st.write("Ask a question based on your FAQ dataset using Gemini, Pandas, and Streamlit.")
 
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
 
 if not api_key:
-    st.error("Missing GEMINI_API_KEY. Please add it to your .env file.")
+    st.error("Missing GEMINI_API_KEY. Please add it to your .env file or Streamlit secrets.")
     st.stop()
 
 faq_manager = FAQManager("faqs.csv")

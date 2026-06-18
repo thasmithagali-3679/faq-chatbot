@@ -1,0 +1,6 @@
+category,question,answer,keywords
+General,What is this app?,This app is an FAQ chatbot built with Streamlit Gemini and Pandas.,app chatbot streamlit gemini pandas
+General,How do I run the app?,Install the requirements and run streamlit run app.py.,run start streamlit install
+API,What API does this project use?,This project uses the Google Gemini API for generating answers.,api gemini google llm
+Data,Why is Pandas used?,Pandas is used to load manage filter and search the FAQ CSV data.,pandas csv data dataframe
+Setup,Where do I add my API key?,Add your Gemini API key in the .env file as GEMINI_API_KEY.,env api key setup
